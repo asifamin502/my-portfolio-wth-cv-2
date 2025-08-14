@@ -1,0 +1,452 @@
+
+.full_portfolio{
+    width: 380px;
+    margin: 0 auto;
+ 
+ 
+}
+
+
+div.top {
+    height: 30vh;
+  div.name_menu {
+    div.name {
+        font-size: 0.3rem;
+        padding-left: 1%;
+      h1 {
+        span {
+
+        }
+      }
+    }
+
+    div.top_manu {
+      ul {
+          gap: 10px;
+        li {
+          a {
+            font-size: 0.5rem;
+
+          }
+        }
+      }
+    }
+  }
+
+  div.top_info {
+      /* padding-top: 5%;
+      display: block; */
+   
+      
+    div.top_name {
+      h2 {
+         font-size: 0.5rem;
+
+      }
+
+      h1 {
+         font-size: 0.5rem;
+
+      }
+    }
+
+    div.mypic {
+       
+        
+       
+       
+      img {
+        
+        border-radius: 30px; 
+       height: 15vh;
+     
+
+      }
+    }
+  }
+}
+
+div.top_info {
+  div.top_name {
+    padding-top: 5%;
+    h2 {
+
+    }
+
+    h1 {
+
+    }
+  }
+
+  div.mypic {
+    img {
+
+    }
+  }
+}
+
+/* end top */
+
+div.my_services {
+  padding-left: 2%;
+      
+  h1 {
+    font-size: 1.3rem;
+         
+    span {
+ 
+    }
+  }
+
+  ol {
+    li {
+      a {
+        img {
+            height: 10vh;
+
+        }
+      }
+    }
+  }
+
+  button {
+
+  }
+}
+
+
+.my_services ol li{
+ 
+  border: 2px solid orange;
+  width: 150px;
+height: 150px;
+  border-radius: 50%;
+
+  padding-top: 5%;
+
+}
+
+.my_services ol li a{
+padding-right: 10%;
+
+font-size: 0.6rem;
+ 
+}
+
+.my_services ol li a:hover{
+ font-size: 0.7rem;
+ 
+
+}
+
+.my_services ol li:hover{
+  transition: 0.5s;
+  width: 170px;
+height: 170px;
+padding-left: 6.5%;
+
+
+}
+
+.my_services button{
+
+   height: 1.5rem;
+  width: 5rem;
+  font-size: 0.6rem;
+  
+  font-weight: 600;
+  margin-left: 37%;
+ 
+}
+
+
+/* my service end */
+
+
+.my_portfolio{
+  padding-left: 2%;
+}
+
+.my_portfolio h1{
+ 
+ font-size: 1.3rem;
+
+}
+
+.my_portfolio_image img{
+
+  padding-top: 5%;
+
+
+height: 120px;
+width: 120px;
+
+}
+
+.my_portfolio_image img:hover{
+  height: 150px;
+  width: 150px;
+
+}
+
+.my_portfolio_button button{
+height: 1.5rem;
+  width: 5rem;
+  font-size: 0.6rem;
+  
+  font-weight: 600;
+  margin-left: 37%;
+ 
+}
+
+/* my_portfolio end */
+
+.my_blog h1{
+   font-size: 1.3rem;
+}
+
+.my_blog_headimage p{
+
+font-size: 0.8rem;
+ 
+
+}
+
+.my_blog_headimage{
+
+width: 95vw;
+height: 30vh;
+
+}
+
+
+
+.my_blogs{
+  flex-direction: column;
+  
+}
+
+
+
+
+.my_blogs > div{
+
+  width: 150px;
+  transition: 3s;
+   
+}
+
+.my_blog1 .date{
+  font-size: 0.6rem;
+  width: 30%;
+  top: 2%;
+}
+
+.my_blog1 h2{
+  font-size: 0.8rem;
+  bottom: 30%;
+}
+
+.my_blog1{
+    border: 2px solid black;
+}
+.my_blog1 p{
+  font-size: 0.6rem;
+}
+
+.my_blog1 img{
+   height: 150px;
+   width: 147px;
+}
+
+.my_blog2{
+    top: 7px;
+    border: 2px solid black;
+}
+.my_blog2 .date{
+  font-size: 0.6rem;
+  width: 30%;
+  top: 2%;
+}
+
+.my_blog2 h2{
+  font-size: 0.8rem;
+  bottom: 30%;
+}
+
+
+.my_blog2 p{
+  font-size: 0.6rem;
+}
+
+.my_blog2 img{
+   height: 150px;
+   width: 147px;
+}
+.my_blog3 .date{
+  font-size: 0.6rem;
+  width: 30%;
+  top: 2%;
+}
+
+.my_blog3 h2{
+  font-size: 0.8rem;
+  bottom: 30%;
+}
+.my_blog3{
+    top: 12px;
+    border: 2px solid black;
+}
+
+.my_blog3 p{
+  font-size: 0.6rem;
+}
+
+.my_blog3 img{
+   height: 150px;
+   width: 147px;
+}
+
+.my_blog button{
+height: 1.5rem;
+  width: 5rem;
+  font-size: 0.6rem;
+  
+  font-weight: 600;
+  margin-left: 30%;
+}
+
+/* my_blog end */
+
+.my_contract h1{
+    font-size: 1.3rem;
+      padding-right: 15%;
+}
+.my_contract h3{
+    font-size: 0.6rem;
+    margin-right: 20%;
+    
+}
+
+.my_contract .my_contract_name{
+ padding-left: 28%;
+ 
+}
+
+.my_contract_field legend{
+  color: green;
+  font-size: 1rem;
+  width: 42vw;
+  
+  
+}
+
+.my_contract_field input{
+  width: 40vw;
+  height: 3vh;
+  font-size: 1.2rem;
+  margin: 2%;
+  border: 2px solid green;
+  padding: 2%;
+  border-radius: 30px;
+  transition: 3s;
+}
+
+.my_contract_field input::placeholder{
+  color: rgb(7, 96, 155);
+  font-size: 0.7rem;
+
+}
+
+.my_contract_field .your_msg{
+    height: 10vh;
+}
+
+.my_contract_field button{
+    height: 1.5rem;
+  width: 5rem;
+  font-size: 0.6rem;
+  
+  font-weight: 600;
+  margin-left: 30%;
+}
+
+/* .my_contract end */
+
+
+
+
+div.hireme {
+   height: 6vh;
+   gap: 40%;
+
+  h2 {
+font-size: 0.5rem;
+ 
+padding-top: 5%;
+width: 100rem;
+  }
+
+  button {
+     height: 2.3rem;
+  width: 45rem;
+  font-size: 0.6rem;
+  margin-right: 20%;
+  margin-top: 2%;
+  
+  font-weight: 600;
+    a {
+font-size: 0.6rem;
+    }
+  }
+}
+
+/* end hire me */
+
+.last_up .location a i{
+  
+font-size: 1.2rem;
+padding-bottom: 2%;
+
+
+}
+
+.last_up .location a i:hover{
+font-size: 1.6rem;
+}
+
+.last_up .phone a i{
+ 
+font-size: 1rem;
+
+}
+
+.last_up .phone a i:hover{
+  font-size: 1.4rem;
+ 
+}
+
+.last_up .mail a i{
+
+font-size: 1rem;
+
+
+}
+
+.last_up .mail a i:hover{
+  font-size: 1.4rem;
+  
+}
+
+
+.last_down p{
+  font-size: 0.8rem;
+}
+
+.last_down{
+margin-left: 5%;
+margin-top: 4%;
+padding-bottom: 1%;
+color: wheat;
+
+}
