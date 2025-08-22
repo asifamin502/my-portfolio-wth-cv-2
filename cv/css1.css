@@ -80,7 +80,8 @@
   }
 
   .top_info p{
-width: 70%;
+width: 80%;
+font-size: 0.9rem;
 
   }
 
@@ -102,7 +103,8 @@ div.top {
     }
 
     h2 {
-letter-spacing: 0.5rem;
+letter-spacing: 0.3rem;
+
     }
 
     h3 {
