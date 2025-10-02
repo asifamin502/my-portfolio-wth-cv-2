@@ -387,6 +387,7 @@ padding-top: 5%;
 
 }
 
+
 .my_blog1 .date{
   background-color: yellowgreen;
   color: rgb(0, 0, 0);
@@ -424,6 +425,10 @@ padding-top: 5%;
   font-size: 1.2rem;
   transition: 0.5s;
    box-shadow: 2px 2px 20px black;
+}
+
+.my_blog1:hover{
+  transform: rotate(360deg);
 }
 
  /* .my_blog1 end */
@@ -474,6 +479,10 @@ padding-top: 5%;
   box-shadow: 2px 2px 20px black;
 }
 
+.my_blog2:hover{
+  transform: rotate(360deg);
+}
+
 /* .my_blog2 end */
 
 .my_blog3{
@@ -522,6 +531,9 @@ padding-top: 5%;
   box-shadow: 2px 2px 20px black;
 }
 
+.my_blog3:hover{
+  transform: rotate(360deg);
+}
 /* .my_blog3 end */
 
 .my_blog button{
@@ -651,6 +663,18 @@ padding-top: 5%;
 .my_contract_field input:focus{
   background-color: black;
   color: whitesmoke;
+}
+
+::placeholder{
+transition: transform 0.5s ease, color 0.3s ease;
+
+}
+
+input:focus::placeholder{
+  color: white;
+  transform: translateY(-27px);
+  font-size: 1rem;
+
 }
 
 /* .my_contract end */

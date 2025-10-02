@@ -353,7 +353,7 @@ height: 1.5rem;
 .my_contract_field input{
   width: 40vw;
   height: 3vh;
-  font-size: 1.2rem;
+  font-size: 0.7rem;
   margin: 2%;
   border: 2px solid green;
   padding: 2%;
@@ -362,7 +362,7 @@ height: 1.5rem;
 }
 
 .my_contract_field input::placeholder{
-  color: rgb(7, 96, 155);
+  color: rgb(82, 164, 219);
   font-size: 0.7rem;
 
 }
@@ -378,6 +378,18 @@ height: 1.5rem;
   
   font-weight: 600;
   margin-left: 30%;
+}
+
+input:focus::placeholder{
+  
+  transform: translateY(-10px);
+  font-size: 0.5rem;
+
+}
+
+::placeholder{
+transition: transform 0.5s ease, color 0.3s ease;
+color: whitesmoke;
 }
 
 /* .my_contract end */
