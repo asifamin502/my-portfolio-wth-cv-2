@@ -36,7 +36,26 @@ div.top {
     
 
   }
+
+
+  #typingani{
+    text-wrap: nowrap;
+    overflow: hidden;
+  
+  
+    animation:  typing 1.5s steps(30), blink-caret 1s step-end infinite;
+
+
+  }
+  @keyframes typing{
+    from{
+      width: 0ch;
+    }
+    to{width: 100%;}
     
+  }
+   
+  
 
 .name_menu {
   display: flex;
